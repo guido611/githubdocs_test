@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>README - edaviz</title>
+    <meta name="description" content="The Easiest Way To Document Your Project">
+    <meta name="author" content="Guido Drechsel">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="themes/daux/img/favicon-blue.png" type="image/x-icon">
+
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    
+    <!-- CSS -->
+    <link href='themes/daux/css/theme-blue.min.css' rel='stylesheet' type='text/css'>
+            <!-- Tipue Search -->
+        <link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+    <script src="themes/daux/js/html5shiv-3.7.3.min.js"></script>
+    <![endif]-->
+</head>
+<body class="with-float ">
+    <div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <button type="button" class="Button Collapsible__trigger">
+            <span class="Collapsible__trigger__bar"></span>
+            <span class="Collapsible__trigger__bar"></span>
+            <span class="Collapsible__trigger__bar"></span>
+        </button>
+
+        <a class="Brand" href="index.html">edaviz</a>
+
+    <div class="Search">
+        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451">
+            <path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/>
+        </svg>
+        <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on"
+               results=25 autosave=text_search>
+    </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item '><a href="api.html">api</a></li><li class='Nav__item '><a href="evaluation.html">evaluation</a></li><li class='Nav__item '><a href="exporting_your_results.html">exporting your results</a></li><li class='Nav__item '><a href="predictive_power_score.html">predictive power score</a></li><li class='Nav__item Nav__item--active'><a href="README.html">README</a></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://github.com/tkrabel/edaviz" target="_blank">Download</a>
+                        <br />
+                                            <a href="https://github.com/tkrabel/edaviz" target="_blank">GitHub Repo</a>
+                        <br />
+                                            <a href="https://github.com/tkrabel/edaviz/issues" target="_blank">Help/Support/Bugs</a>
+                        <br />
+                                                </div>
+
+                                <div class="CodeToggler">
+                        <hr/>
+                                                    <span class="CodeToggler__text">Code blocks</span>
+                            <div class="ButtonGroup" role="group">
+                                <button class="Button Button--default Button--small CodeToggler__button CodeToggler__button--hide">No</button>
+                                <button class="Button Button--default Button--small CodeToggler__button CodeToggler__button--below">Below</button>
+                                <button class="Button Button--default Button--small CodeToggler__button CodeToggler__button--float">Inline</button>
+                            </div>
+                                            </div>
+                
+                                    <div class="Twitter">
+                        <hr/>
+                                                    <iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=edavizpy&amp;show_count=false"></iframe>
+                            <br />
+                            <br />
+                                            </div>
+                
+                                    <div class="PoweredBy">
+                        <hr/>
+                        Powered by Daux.io                    </div>
+                        </div>
+    </aside>
+    <div class="Columns__right Columns__right--float">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1><a href="README.html">README</a></h1>
+                <span class="ModifiedDate">
+            July 10, 2019, 2:54 PM        </span>
+                    </div>
+
+    <div class="s-content">
+        <h1 id="page_edaviz">edaviz</h1>
+<p>edaviz - Python library for Exploratory Data Analysis and Visualization in Jupyter Notebook or Jupyter Lab</p>
+<ul>
+<li>
+<a href="#Installation">Installation</a>
+</li>
+<li>
+<a href="#Usage">Usage</a>
+</li>
+<li>
+<a href="#API">API</a>
+</li>
+</ul>
+<h1 id="page_Installation">Installation</h1>
+<blockquote>
+<p>Currently, we are in private access mode. You will receive the initial <code>pip install</code> command and your license directly from us when you have been chosen for early access.</p>
+</blockquote>
+<p>The installation consists of 4 steps:</p>
+<h2 id="page_1-pip-install">1) pip install</h2>
+<p>From the terminal, you can install edaviz with the pip command that you received from us via mail.</p>
+<h2 id="page_2-setup-jupyter-extensions">2) setup jupyter extensions</h2>
+<h3 id="page_Jupyter-Notebook">Jupyter Notebook</h3>
+<p>From the terminal, you need to setup the Jupyter Notebook extensions via the following commands:</p>
+<pre><code>jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable --py qgrid
+</code></pre>
+<p>If this worked for you, you can <strong>continue with step 3</strong>.</p>
+<h3 id="page_Jupyter-Lab">Jupyter Lab</h3>
+<blockquote>
+<p>Small tip: The setup process with Jupyter Notebook is faster and easier than with Jupyter Lab. Also, JupyterLab 1.0.1 does not work yet, because there are still dependency incompatibilities. However, it works with the latest JupyterLab version before 1.0</p>
+</blockquote>
+<p>If you use Jupyter Lab, you need to use the following commands from your terminal. The Jupyter Lab Extension manager will not work because the version numbers cannot be fixed yet.</p>
+<blockquote>
+<p>Important: Jupyter Lab extensions require that you have nodejs installed on your computer.
+<a href="https://jupyterlab.readthedocs.io/en/stable/user/extensions.html" target="_blank">Official install guide for Jupyter Lab Extensions</a></p>
+</blockquote>
+<pre><code>jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --no-build
+jupyter labextension install plotlywidget@0.11.0 --no-build
+jupyter labextension install @jupyterlab/plotly-extension@0.18.2 --no-build
+jupyter labextension install qgrid@1.1.1 --no-build
+jupyter lab build
+</code></pre>
+<p>If this worked for you, you can <strong>continue with step 3</strong>.</p>
+<p>If you have troubles with the correct display of the edaviz widgets, please validate again, that you have the right versions of the pip dependencies installed because some version combinations are incompatible:</p>
+<p>From the terminal, you need to enter: (maybe you use pip3?)</p>
+<pre><code>pip install jupyterlab==0.35.6
+pip install ipywidgets==7.4.2
+pip install plotly==3.10.0
+</code></pre>
+<h2 id="page_3-start-edaviz-in-Jupyter">3) start edaviz in Jupyter</h2>
+<p>From the terminal, start your Jupyter Notebook (or Jupyter Lab):</p>
+<pre><code>jupyter notebook
+</code></pre>
+<p>From a Jupyter cell, you need to start edaviz via the following Python code:</p>
+<pre><code>import edaviz as eda
+df = eda.get_titanic_df()  # sample pandas dataframe
+df
+</code></pre>
+<h2 id="page_4-enter-your-license">4) enter your license</h2>
+<p>If everything works fine, edaviz asks you for a license.
+Please enter the license key which you received from us.</p>
+<h1 id="page_Usage">Usage</h1>
+<p>First, start your Jupyter Notebook from the terminal:</p>
+<pre><code>jupyter notebook
+</code></pre>
+<p>Then, execute the following code in a Jupyter cell:</p>
+<pre><code>import edaviz as eda
+df = eda.get_titanic_df()  # sample pandas dataframe
+df
+</code></pre>
+<blockquote>
+<p>Info: edaviz only works within Jupyter Notebook or Jupyter Lab. Currently, you cannot use it on other platforms, e.g. via the command line or in PyCharm etc</p>
+</blockquote>
+<h1 id="page_API">API</h1>
+<p>You will be able to discover most of the library functions via the <code>eda.plot(df)</code> widget.
+If you want to dig deeper into our docs, you can find them <a href="https://github.com/tkrabel/edaviz/blob/master/docs/api.md" class="Link--external">here</a>.</p>
+<h2 id="page_5-most-important-functions">5 most important functions:</h2>
+<ul>
+<li>The best API is no API. Just execute <code>df</code> (or the name of your pandas dataframe object) and see what happens. If you imported edaviz, it will add some interactive visualizations to your pandas dataframe</li>
+<li>
+<code>eda.plot(df)</code> shows an overview widget of a given dataframe. This is the main entry point of the edaviz library</li>
+<li>
+<code>eda.plot(df, x)</code> shows a suitable univariate summary of a given column, e.g. <code>eda.plot(df, &quot;Age&quot;)</code>
+</li>
+<li>
+<code>eda.plot(df, x, y)</code> shows a suitable bivariate plot of the two columns, e.g. <code>eda.plot(df, &quot;Survived&quot;, &quot;Age&quot;)</code>.</li>
+<li>
+<code>eda.patterns(df)</code> answers the question: <em>&quot;between which columns exist predictive patterns?&quot;</em>
+</li>
+</ul>
+<p>The big advantage of <code>eda.plot</code> is that you do not have to specify the chart type because a best practice visualization is inferred based on the column data types.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="predictive_power_score.html">Previous</a></li>                    </ul>
+    </nav>
+    </article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- JS -->
+    <script src="themes/daux/js/jquery-1.11.3.min.js"></script><script src="themes/daux/js/highlight.pack.js"></script><script src="themes/daux/js/daux.js"></script>
+            <script>
+            
+            window.searchLanguage = "";
+            window.searchTranslation = {"Search_one_result":"1 result","Search_results":"!count results","Search_no_results":"Nothing found","Search_common_words_ignored":"Common words are largely ignored","Search_too_short":"Search too short","Search_one_character_or_more":"Should be one character or more","Search_should_be_x_or_more":"Should be !min characters or more","Link_previous":"Previous","Link_next":"Next"};
+        </script>
+
+        <!-- Tipue Search -->
+        <script type="text/javascript" src="tipuesearch/tipuesearch.js"></script>
+
+        <script>
+            window.onunload = function(){}; // force $(document).ready to be called on back/forward navigation in firefox
+            $(function() {
+                tipuesearch({
+                    'base_url': ''
+                });
+            });
+        </script>
+    
+</body>
+</html>
