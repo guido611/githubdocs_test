@@ -1,6 +1,6 @@
 {
     "title": "edaviz",
-    "tagline": "The Easiest Way To Document Your Project",
+    "tagline": "Python library for Exploratory Data Analysis and Visualization in Jupyter Notebook or Jupyter Lab",
     "author": "Guido Drechsel",
     "image": "app.png",
     "ignore": {
@@ -26,7 +26,6 @@
             "GitHub Repo": "https://github.com/tkrabel/edaviz",
             "Help/Support/Bugs": "https://github.com/tkrabel/edaviz/issues"
         },
-
         "powered_by": "Powered by Daux.io"
     }
 }
