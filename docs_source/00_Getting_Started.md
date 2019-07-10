@@ -1,9 +1,9 @@
 # edaviz
 edaviz - Python library for Exploratory Data Analysis and Visualization in Jupyter Notebook or Jupyter Lab
 
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [API](#API)
+- [Installation](#page_Installation)
+- [Usage](#page_Usage)
+- [API](#page_API)
 
 # Installation
 
