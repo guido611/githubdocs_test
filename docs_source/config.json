@@ -2,7 +2,6 @@
     "title": "edaviz",
     "tagline": "Python library for Exploratory Data Analysis and Visualization in Jupyter Notebook or Jupyter Lab",
     "author": "Guido Drechsel",
-    "image": "app.png",
     "ignore": {
             "files": ["Work_In_Progress.md"],
             "folders": ["99_Not_Ready"]
@@ -24,7 +23,7 @@
         "links": {
             "Download": "https://github.com/tkrabel/edaviz",
             "GitHub Repo": "https://github.com/tkrabel/edaviz",
-            "Help/Support/Bugs": "https://github.com/tkrabel/edaviz/issues"
+            "Issues": "https://github.com/tkrabel/edaviz/issues"
         },
         "powered_by": "Powered by Daux.io"
     }
