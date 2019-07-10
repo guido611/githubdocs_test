@@ -12,6 +12,9 @@ __The advantages in a nutshell:__
 - The PPS is __faster__ than fitting a model (e.g. a Random Forest or SVM)
 - The PPS is __convenient__ because you don't need to transform your columns (e.g. most models require some transformation)
 
+```
+pip install nbconvert==5.5.0
+```
 
 ## Description
 The predictive power score can be described as follows:
