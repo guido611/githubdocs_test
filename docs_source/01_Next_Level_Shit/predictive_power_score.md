@@ -1,4 +1,4 @@
-# Introducing the Predictive Power Score (PPS)
+## Introducing the Predictive Power Score (PPS)
 
 > Stop searching for correlation and start searching for predictive power!
 
