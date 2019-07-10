@@ -1,7 +1,7 @@
 {
-    "title": "DAUX.IO",
+    "title": "edaviz",
     "tagline": "The Easiest Way To Document Your Project",
-    "author": "Stéphane Goetz",
+    "author": "Guido Drechsel",
     "image": "app.png",
     "ignore": {
             "files": ["Work_In_Progress.md"],
@@ -19,21 +19,14 @@
         "float": true,
         "inherit_index": true,
 
-        "repo": "dauxio/daux.io",
-        "edit_on_github": "dauxio/daux.io/blob/master/docs",
-        "twitter": ["onigoetz"],
-        "google_analytics": "UA-3551397-7",
+        "repo": "tkrabel/edaviz",
+        "twitter": ["edavizpy"],
         "links": {
-            "Download": "https://github.com/dauxio/daux.io/archive/master.zip",
-            "GitHub Repo": "https://github.com/dauxio/daux.io",
-            "Help/Support/Bugs": "https://github.com/dauxio/daux.io/issues"
+            "Download": "https://github.com/tkrabel/edaviz",
+            "GitHub Repo": "https://github.com/tkrabel/edaviz",
+            "Help/Support/Bugs": "https://github.com/tkrabel/edaviz/issues"
         },
 
         "powered_by": "Powered by Daux.io"
-    },
-    "confluence": {
-        "base_url": "https://dauxio.atlassian.net/wiki/",
-        "space_id": "DOC",
-        "root_id": 196610
     }
 }

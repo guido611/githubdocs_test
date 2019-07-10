@@ -16,7 +16,7 @@
 * [Static Output Generation](01_Features/Static_Site_Generation.md)
 * [Table of Contents](01_Features/Table_of_contents.md)
 
-### For Developers
+### For Developers First
 
 * [Auto Syntax Highlighting](01_Features/Auto_Syntax_Highlight.md)
 * [Extend Daux.io with Processors](01_For_Developers/Creating_a_Processor.md)
